@@ -1,0 +1,27 @@
+body{
+    background-color: rgba(0, 255, 255, 0.568);
+}
+
+h1{
+    color: blueviolet;
+    background-color: blanchedalmond;
+}
+
+#showsketch{
+    float: right;
+    font-size: 30px;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px yellow;}
+    to{box-shadow: 1px 1px 38px greenyellow;}
+}
